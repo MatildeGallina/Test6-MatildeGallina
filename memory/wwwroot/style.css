@@ -1,0 +1,13 @@
+.retro{
+    display: inline-block;
+    height: 75px;
+}
+
+.open{
+    display: none;
+    width: 30px;
+}
+
+.game-table{
+    display: none;
+}

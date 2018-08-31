@@ -1,0 +1,14 @@
+C:\Users\corsista\Desktop\test6\Test6-MatildeGallina\memory\bin\Debug\netcoreapp2.1\memory.deps.json
+C:\Users\corsista\Desktop\test6\Test6-MatildeGallina\memory\bin\Debug\netcoreapp2.1\memory.runtimeconfig.json
+C:\Users\corsista\Desktop\test6\Test6-MatildeGallina\memory\bin\Debug\netcoreapp2.1\memory.runtimeconfig.dev.json
+C:\Users\corsista\Desktop\test6\Test6-MatildeGallina\memory\bin\Debug\netcoreapp2.1\memory.dll
+C:\Users\corsista\Desktop\test6\Test6-MatildeGallina\memory\bin\Debug\netcoreapp2.1\memory.pdb
+C:\Users\corsista\Desktop\test6\Test6-MatildeGallina\memory\obj\Debug\netcoreapp2.1\memory.csprojAssemblyReference.cache
+C:\Users\corsista\Desktop\test6\Test6-MatildeGallina\memory\obj\Debug\netcoreapp2.1\memory.csproj.CoreCompileInputs.cache
+C:\Users\corsista\Desktop\test6\Test6-MatildeGallina\memory\obj\Debug\netcoreapp2.1\memory.RazorAssemblyInfo.cache
+C:\Users\corsista\Desktop\test6\Test6-MatildeGallina\memory\obj\Debug\netcoreapp2.1\memory.RazorAssemblyInfo.cs
+C:\Users\corsista\Desktop\test6\Test6-MatildeGallina\memory\obj\Debug\netcoreapp2.1\memory.AssemblyInfoInputs.cache
+C:\Users\corsista\Desktop\test6\Test6-MatildeGallina\memory\obj\Debug\netcoreapp2.1\memory.AssemblyInfo.cs
+C:\Users\corsista\Desktop\test6\Test6-MatildeGallina\memory\obj\Debug\netcoreapp2.1\memory.RazorTargetAssemblyInfo.cache
+C:\Users\corsista\Desktop\test6\Test6-MatildeGallina\memory\obj\Debug\netcoreapp2.1\memory.dll
+C:\Users\corsista\Desktop\test6\Test6-MatildeGallina\memory\obj\Debug\netcoreapp2.1\memory.pdb

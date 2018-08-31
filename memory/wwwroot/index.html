@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Test 6</title>
+</head>
+
+<body>
+    <h1>Memory</h1>
+    <button onclick="start()">START</button>
+    <div id="stopwatch"></div>
+    <div id="table" class="game-table">
+        <div id="c1" class="card" onclick="turn(`c1`)">
+            <img id="c1" class="retro" src="retro.jpg" />
+            <img id="c1" class="open" src="icona1.jpg" />
+        </div>
+
+        <div id="c2" class="card" onclick="turn(`c2`)">
+            <img id="c2" class="retro" src="retro.jpg" />
+            <img id="c2" class="open" src="icona2.jpg" />
+        </div>
+
+        <div id="c3" class="card" onclick="turn(`c3`)">
+            <img id="c3" class="retro" src="retro.jpg" />
+            <img id="c3" class="open" src="icona3.png" />
+        </div>
+
+        <div id="c4" class="card" onclick="turn(`c4`)">
+            <img id="c4" class="retro" src="retro.jpg" />
+            <img id="c4" class="open "src="icona1.jpg" />
+        </div>
+
+        <div id="c5" class="card" onclick="turn(`c5`)">
+            <img id="c5" class="retro" src="retro.jpg" />
+            <img id="c5" class="open" src="icona4.jpg" />
+        </div>
+
+        <div id="c6" class="card" onclick="turn(`c6`)">
+            <img id="c6" class="retro" src="retro.jpg" />
+            <img id="c6" class="open" src="icona4.jpg" />
+        </div>
+
+        <div id="c7" class="card" onclick="turn(`c7`)">
+            <img id="c7" class="retro" src="retro.jpg" />
+            <img id="c7" class="open" src="icona3.png" />
+        </div>
+
+        <div id="c8" class="card" onclick="turn(`c8`)">
+            <img id="c8" class="retro" src="retro.jpg" />
+            <img id="c8" class="open" src="icona2.jpg" />
+        </div>
+    </div>
+
+
+    <script src="logic.js"></script>
+</body>
+
+</html>
