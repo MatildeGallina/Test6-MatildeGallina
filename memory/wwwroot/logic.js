@@ -1,6 +1,6 @@
 function Card(myid, able, match) {
     this.myid = myid,
-        this.able = able
+    this.able = able
     this.match = match
 }
 
@@ -47,73 +47,64 @@ function openCard(passedid) {
     }
 }
 
-function closeCard(array) {
-    for (let card of array) {
-        var r = document.getElementsByClassName("retro")
-        for (let e of r) {
-            if (e.id === card.myid) {
-                e.style.display = "block"
-            }
+function closeCard(card) {
+    var r = document.getElementsByClassName("retro")
+    for (let e of r) {
+        if (e.id === card.myid) {
+            e.style.display = "block"
         }
+    }
 
-        var o = document.getElementsByClassName("open")
-        for (let e of o) {
-            if (e.id === card.myid) {
-                e.style.display = "none"
-            }
+    var o = document.getElementsByClassName("open")
+    for (let e of o) {
+        if (e.id === card.myid) {
+            e.style.display = "none"
         }
+    }
+}
+
+function clear(){
+    var table = document.getElementById("table")
+    table.style.display = "none"
+
+    cards = [c1, c2, c3, c4, c5, c6, c7, c8]
+    for(let c of cards){
+        closeCard(c.myid)
     }
 }
 
 function endGame() {
-    var o = document.getElementsByClassName("open")
-    var count = 0
-    for (let c of o) {
-        console.log(c.style.display)
-        if (c.style.display === "none") {
-            count++
-        }
-    }
-
-    if (count === 0) {
-        console.log("hai vinto")
+    if(cards.length == 0){
+        alert("HAI VINTO!!!")
+        clear()
     }
 }
 
 function turn(passedId) {
-    // ricavo l'elemento
-    // var card = document.getElementById(passedId)
-    // giro la carta
     openCard(passedId)
-
-    console.log("prima round.length: " + round.length)
-
-    // memorizzo il match della carta
     for (let c of cards) {
         if (passedId == c.myid) {
+            c.able = false
             round.push(c)
-            console.log("aggiunto")
-            console.log(c)
         }
     }
-    // se è il secondo round controllo che i match corrispondono
+
     if (round.length == 2) {
-        //se corrispondono li blocco e gli tolgo l'event click
         if (round[0].match === round[1].match) {
-            console.log("indovinato")
-            for (let c of round){
+            for (let c of round) {
                 cards.removeEl(c)
             }
         }
         else {
-            closeCard(round)
+            for (let c of round) {
+                closeCard(c)
+                c.able = true
+            }
         }
-        // se non corrispondono li chiudo
 
-        // svuoto l'array
         round.pop()
         round.pop()
-
+        
+        endGame()
     }
-    endGame()
 }
